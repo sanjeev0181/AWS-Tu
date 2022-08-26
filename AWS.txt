@@ -1,0 +1,43 @@
+What is the ec2 instance?
+Amazon EC2 stands for Elastic Compute Cloud which is a web service interface. 
+It also provides resizable compute capacity in the AWS cloud. 
+It is used by developers to have complete control over web-scaling and computing resources.
+
+List type of ec2 instance tags are used?
+General-Purpose instances.
+2. Compute Optimized instances.
+3. Memory Optimized instances.
+4. Accelerated Computing instances.
+5. Storage Optimized instances
+
+AWS-VPC?
+aws vpc enables you to launch amazon web services resources into a virtual a n/w that've defined.
+This virtual n/w closely resembles a traditinoal n/w that you operate in your own data center,with the 
+benefits of using the scalable infrastructure of aws.
+ 
+vpc-peering
+
+
+AWS Cloudwatch :-
+
+Cloudwatch collects monitoring and operational data in form of logs,metrics and events and visualizes it using automated dashboards so you can get a unified 
+view of your aws resources, applications and services that run in aws and on-premises.
+
+Collect:-metrics and logs from all your aws resources,applications and services that run an aws and on-premises servers.
+Monitor:- Visualize applications and infrastruture with dashboards;correlate logs and metrics side by side to troubleshoot and set alerts with cloudwatch alarms
+Act/Event :- Automate response to operational changes with cloudwatch events and auto scaling. 
+Analyse:- up to 1- second metrics, extended data retention (15months) and real-time analysis with cloudwatch metric math.
+
+cloudwatch concepts -alarm
+
+You can use an alarm to automatically initiate actions on your behalf.
+
+Period:- The lenght of time to evalute the metric to create each individual data point for an alarm.
+
+Evaluation Periods:-The no of the almost recent periods, to evalute when determing alarm state.
+
+Datapoints to alarm:- The no .of data points within the evalution periods that must be breaching to cause the alarm to go the ALARM state.
+
+example:- INALARM :- The metric or expression is outside of the defined threshold.
+          OK :- The metric or expression is within the defined threshold.
+          INSUFFICIENT DATA :- The alarm has just started or not enough data is available.
